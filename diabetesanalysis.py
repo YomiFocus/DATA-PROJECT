@@ -18,7 +18,7 @@ df = pd.read_csv("diabetes.csv")
 st.markdown("# last Five Items")
 st.write(df.tail())
 
-st,title("General Information About Diabetes Analysis")
+st.title("General Information About Diabetes Analysis")
 st.narkdown('#Overview')
 hall = df.describe
 st.write(hall)
