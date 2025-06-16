@@ -13,3 +13,7 @@ import seaborn as sns
 df = pd.read_csv("diabetes.csv")
 st.markdown("# First Five Items")
 st.write(df.head())
+
+df = pd.read_csv("diabetes.csv")
+st.markdown("# last Five Items")
+st.write(df.tail())
