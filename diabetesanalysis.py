@@ -19,6 +19,6 @@ st.markdown("# last Five Items")
 st.write(df.tail())
 
 st.title("General Information About Diabetes Analysis")
-st.narkdown('#Overview')
+st.markdown('# Overview')
 hall = df.describe
 st.write(hall)
