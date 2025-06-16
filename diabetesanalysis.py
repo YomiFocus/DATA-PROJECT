@@ -27,3 +27,8 @@ st.title("Diabetes Shape")
 st.markdown('# Overview')
 term = df.shape
 st.write(term)
+
+st.title("Glucose value")
+st.markdown('# Itemised')
+yomi = df("Glucose")
+st.write(yomi)
