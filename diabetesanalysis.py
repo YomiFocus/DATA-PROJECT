@@ -22,3 +22,8 @@ st.title("General Information About Diabetes Analysis")
 st.markdown('# Overview')
 hall = df.describe
 st.write(hall)
+
+st.title("Diabetes Shape")
+st.markdown('# Overview')
+term = df.shape
+st.write(term)
